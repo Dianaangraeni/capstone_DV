@@ -1,0 +1,109 @@
+---
+title: "Briefing DV capstone"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: 
+ html_document:
+   toc: true
+   toc_float: true
+   highlight: zenburn
+   df_print: paged
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+File ini berisi template untuk mejawab pertanyaan 5W+1H saat briefing Capstone Data Visualization sebagai langkah awal sebelum membuat Dashboard. Silakan Bapak/Ibu mengisi jawaban di bawah. 
+
+File ini tidak akan dinilai namun Bapak/Ibu **WAJIB** disubmit ke dalam classroom pada hari H briefing Capstone Data Visualization.
+
+# What
+
+Tentukan tujuan atau informasi yang ingin ditampilkan dalam dashboard
+
+
+**Jawab**
+
+Tujuan yang ingin dicapai atau informasi yang ingin disampaikan:
+
+Saya bertujuan untuk menggambarkan pengaruh musik terhadap kesehatan mental seseorang. Musik merupakan salah satu sarana yang mudah diakses, dapat dinikmati di mana pun dan kapan pun, tanpa mengganggu orang di sekitar dan tanpa memerlukan usaha tambahan ketika seseorang membutuhkan hiburan atau alat untuk merelaksasikan pikiran.
+
+Tujuan utama dari proyek ini adalah:
+
+-Meningkatkan kesadaran tentang dampak musik terhadap kesehatan mental.
+-Menyajikan hubungan antara musik dan kesehatan mental secara visual.
+-Memberikan informasi tentang genre musik yang dapat meningkatkan kesehatan mental.
+
+# Who
+
+Untuk siapa dashboard ini dibuat? Siapa target pembaca dari dashboard ini?
+
+**Jawab**
+
+Individu yang tertarik dengan kesehatan mental dan memiliki minat dalam menggunakan musik sebagai alat untuk meningkatkan suasana hati mereka. 
+
+# Why
+
+Apakah data yang dibuat relevan atau sesuai dengan tujuan? Mengapa?
+
+**Jawab**
+Dataset yang digunakanan untuk projek ini adalah "Music & Mental Health Survey Results" (https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results), dalam data tersebut terdapat informasi mengenai suasana hati individu setelah mendengarkan musik-musik dengan genre-genre tertentu. Hal ini, dapat membantu dalam memberikan panduan praktis bagi individu yang ingin menggunakan musik sebagai sarana untuk merawat dan meningkatkan kesejahteraan pikiran mereka.
+
+# When
+
+Apakah data yang digunakan masih *up to date* atau masih relevan dengan kondisi sekarang? Apakah ada informasi tentang tanggal update terakhir dari data tersebut?
+
+**Jawab**
+
+Survey pada data ini dilakukan pada tahun 2022,  sehingga informasinya masih up-to-date dan relevan dengan kondisi saat ini. 
+ 
+
+# How
+
+Bagaimana Bapak/Ibu menggunakan visualisasi untuk menjawab tujuan yang telah disebutkan? 
+
+Buat plot yang akan dimasukkan ke dalam dashboard. Boleh dalam bentuk `ggplot` maupun `plotly`.
+
+**Jawab**
+Plot yang akan saya gunakan: 
+- Barchart 
+- Scatter plot
+
+Plot untuk menjawab tujuan pertama
+```{r}
+# your code here
+```
+
+Plot kedua
+```{r}
+# your code here
+```
+
+Plot ketiga
+```{r}
+# your code here
+```
+
+Buat chunk baru apabila ada lebih dari 3 plot.
+
+# Where
+
+Bagaimana desain layout atau tata letak dashboard yang akan dibuat?
+
+**Jawab**
+
+Contoh penulisan layout. 
+
+Tab atau halaman pertama
+
+- Bar chart jumlah responden yang mendapatkan efek positif dari mendengarkan musik 
+-
+
+Tab atau halaman kedua
+- barchart :  genres yang dapat meningkatkan suasana hati
+- Scatter plot untuk hubungan antara musik dan mental health
+-
+Tab atau halaman ketiga
+- Raw Dataset
